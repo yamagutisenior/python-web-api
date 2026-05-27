@@ -34,6 +34,14 @@ posts = [
         """,
         "author": "Guido Van Rossum",
     },
+    {
+        "title": "MANSAO MAROMBA",
+        "content": """\
+        BONDE DA STRONDA.
+        <pre> import make_a_blog </pre>
+        """,
+        "author": "LEO STRONDA",
+    },
 ]
 
 
