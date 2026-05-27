@@ -1,5 +1,5 @@
 body {
-    background-color: lightyellow;
+    background-color: rgb(120, 234, 130);
 }
 
 h1 {
@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-  color: lightblue;
+  color: rgb(7, 140, 184);
 }
 
 p {
