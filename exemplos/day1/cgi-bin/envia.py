@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-import cgi
+import cgi #CGI - COMMUN GATEWAY INTERFACE
 
 form = cgi.FieldStorage()
 nome = form.getvalue("nome")
