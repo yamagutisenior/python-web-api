@@ -1,4 +1,5 @@
 def application(environ, start_response):
+    print(environ) ## EXPOE TODOS AS VARIAVEIS DE AMBIENTE (TOKENS, SENHAS, VERSOES)
     body = b"<strong>Hello world!</strong>"
     status = "200 OK"
     headers = [("Content-type", "text/html")]

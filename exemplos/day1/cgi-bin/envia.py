@@ -1,11 +1,14 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import cgi #CGI - COMMUN GATEWAY INTERFACE
 
 form = cgi.FieldStorage()
 nome = form.getvalue("nome")
 mensagem = form.getvalue("mensagem")
 
-print("Content-type:text/html\r\n\r\n")
+print("Content-Type: text/html")
+print()  # linha em branco obrigatória — não use \r\n\r\n
+
+#print("Content-type:text/html\r\n\r\n")
 print("<html>")
 print("<head>")
 print("<title>Enviado</title>")
