@@ -7,5 +7,5 @@ Estes são os produtos em promoção:
 {% endfor %}
 
 {%- if special_customer %}
-E você tem {{ "20%" | addhearts }}  de desconto por ser cliente especial!
+E você tem {{ " 20%" | addhearts }}  de desconto por ser cliente especial!
 {% endif %}

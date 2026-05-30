@@ -5,7 +5,7 @@ template = env.get_template("email.template.txt")
 
 
 def addhearts(text):
-    return f"❤️ {text} ❤️"
+    return f" ❤️ {text}❤️"
 
 
 env.filters["addhearts"] = addhearts
