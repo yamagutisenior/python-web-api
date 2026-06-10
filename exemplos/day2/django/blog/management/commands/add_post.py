@@ -5,7 +5,7 @@ from django.utils.text import slugify
 
 class Command(BaseCommand):
     """Adds a new post to the database
-    django-admin add-post --title 'Title' --content 'Content'
+    COMANDO >> django-admin add_post --title 'Title' --content 'Content'
     """
 
     help = "Creates a new Post in the blog"
